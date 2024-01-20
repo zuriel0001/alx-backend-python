@@ -11,7 +11,7 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """
     Create and run asyncio tasks that wait for random amounts of time
 
-    Returns: 
+    Returns:
         list of the Task objects, sorted
         in ascending order by the time waited
     """
